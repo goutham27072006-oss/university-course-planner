@@ -163,19 +163,5 @@ ID: 101 | Name: Rahul | Marks: 85.00
 * Efficient for managing dynamic datasets
 * Easy to expand with more features
 
----
-
-# 🚀 (Optional – say if time allows in presentation)
-
-**Future Improvements:**
-
-* File handling (save data permanently)
-* Sorting students by marks
-* GUI interface
-* Multiple data fields (age, course, etc.)
-
----
 
 
-👉 Give **IEEE report content (full marks level)**
-👉 Prepare **viva answers your professor will ask**
