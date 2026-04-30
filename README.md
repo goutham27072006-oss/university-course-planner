@@ -1,6 +1,6 @@
 🎓 1. Project Title
 
-University Course Planner using Graph (Adjacency Matrix) in C
+University Course Planner using Graph (Adjacency Matrix) in C 
 
 ❗ 2. Problem Statement
 
