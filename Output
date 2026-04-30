@@ -1,0 +1,45 @@
+1.Add Course
+2.Update Course
+3.Delete Course
+4.List Courses
+5.Add Prerequisite
+6.Semester Planner
+7.Exit
+Enter choice: 1
+Enter course ID: 101
+Enter course name: Math
+Course added.
+
+Enter choice: 1
+Enter course ID: 102
+Enter course name: Physics
+Course added.
+
+Enter choice: 1
+Enter course ID: 103
+Enter course name: Programming
+Course added.
+
+Enter choice: 5
+Enter prerequisite course ID: 101
+Enter dependent course ID: 102
+Prerequisite added.
+
+Enter choice: 5
+Enter prerequisite course ID: 102
+Enter dependent course ID: 103
+Prerequisite added.
+
+Enter choice: 4
+
+Courses:
+ID: 101  Name: Math
+ID: 102  Name: Physics
+ID: 103  Name: Programming
+
+Enter choice: 6
+
+Semester Plan:
+Semester 1: Math 
+Semester 2: Physics 
+Semester 3: Programming 
