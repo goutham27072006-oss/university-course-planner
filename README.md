@@ -53,20 +53,28 @@ Flow:
 User Input → Menu → Graph Operation → Topological Sort → Semester Output
 
 ⚙️ 6. Algorithm
+
+
 ➤ Add Course
 Input course ID and name
 Check for duplicate ID
 Insert into course list
 Initialize adjacency row
+
+
 ➤ Delete Course
 Input course ID
 Mark course as inactive
 Remove all edges related to it
+
+
 ➤ Add Prerequisite
 Input prerequisite course ID (u)
 Input dependent course ID (v)
 Add edge: u → v
 Increase indegree of v
+
+
 ➤ Topological Sort (Kahn’s Algorithm)
 Find all courses with indegree = 0
 Add them to queue
@@ -75,6 +83,8 @@ Reduce indegree of neighbors
 Repeat until queue is empty
 If all courses processed → valid order
 Else → cycle exists
+
+
 ➤ Semester Planning
 Use topological order
 Assign semester = 1 for all courses
@@ -82,7 +92,11 @@ For each edge u → v:
 semester[v] = semester[u] + 1 (if greater)
 Group courses by semester
 
+
+
 💻 7. Implementation
+
+
 Language: C
 Concepts used:
 struct
